@@ -68,7 +68,7 @@
     color: #CC0000;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .grid {
         grid-template-areas: "header header header header" ". main main ." ". col1 col2 ." "info info info info" ". final final .";
         grid-template-columns: 1fr 1fr 1fr 1fr;
