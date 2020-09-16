@@ -5,6 +5,11 @@
 * Browsers: last 4 version
 */
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .grid {
     display: -ms-grid;
     display: grid;
