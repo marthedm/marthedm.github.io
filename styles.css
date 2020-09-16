@@ -43,11 +43,6 @@
     text-align: center;
 }
 
-.perineum-logo {
-    height: 377px;
-    width: 296px;
-}
-
 .qr-flex {
     display: flex;
     flex-direction: column;
@@ -100,4 +95,9 @@ h3 {
 
 ul {
     list-style-image: url('bullet.PNG');
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
