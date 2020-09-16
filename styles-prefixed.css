@@ -41,14 +41,12 @@
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: col1;
-    padding: 26px;
 }
 
 .col2 {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: col2;
-    padding: 26px
 }
 
 .info {
@@ -147,6 +145,14 @@ img {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+    }
+
+    .col1 {        
+        padding: 26px;
+    }
+    
+    .col2 {        
+        padding: 26px
     }
     .header {
         -ms-grid-row: 1;

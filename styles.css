@@ -26,12 +26,10 @@
 
 .col1 {
     grid-area: col1;
-    padding: 26px;
 }
 
 .col2 {
     grid-area: col2;
-    padding: 26px
 }
 
 .info {
@@ -104,6 +102,14 @@ img {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .col1 {        
+        padding: 26px;
+    }
+    
+    .col2 {        
+        padding: 26px
     }
 }
 
